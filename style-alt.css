@@ -1,0 +1,174 @@
+/*Holds Logo in place*/
+
+* {                                        
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #0A4DA6;
+	text-decoration: underline;
+}
+
+/*Styles for Lists, Headings and Background */ 
+
+body {
+	font-size: 10.5pt;
+	line-height: 1.75em;
+	font-family: Arial, sans-serif;
+	background: url('images/bg.jpg');
+}
+
+br.clear {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	font-weight: normal;
+}
+
+h2,h3,h4 {
+	margin-bottom: 1em;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+img.left {
+	float: left;
+	margin: 8px 20px 20px 0;
+}
+
+img.top {
+	margin: 8px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.75em;
+}
+
+
+/*Styles for Lists, Headings and Background End */ 
+
+/*Styles for Boxes*/ 
+
+/*Style for Main middle box text*/
+
+#box1 {                                    
+	width: 1000px;
+	overflow: hidden;
+	margin: 0px 0 24px 0;
+}
+
+/*Style for Main middle box*/
+
+#content {                                 
+	width: 1124px;
+	margin: 28px 28px 0 0px;
+	padding: 28px;
+	background: #ffffff;
+}
+
+/*Styles for Boxes End*/ 
+
+/*Styles for Header*/ 
+
+#header {
+	position: relative;
+	padding: 28px;
+	height: 126px;
+	width: 1124px;
+}
+
+/*Styles for Header End*/
+
+/*Styles for Logo(Astronomy)*/
+
+#logo {
+	text-align: center;
+	position: relative;
+	margin: -14px auto;
+	height: 98px;
+	line-height: 98px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo h1 {
+	font-size: 5em;
+	font-family: 'Poiret One', cursive;
+}
+
+/*Styles for Logo(Astronomy) End*/
+
+/*Styles for Center boxes*/
+
+#main {
+	position: relative;
+	padding: 0px;
+	margin: 28px 0 0 0;
+	width: 1180px;
+	color: #474747;
+}
+
+/*Styles for Center boxes End*/
+
+/*Styles for Navigation bar*/
+
+#nav {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 1180px;
+	height: 56px;
+	line-height: 56px;
+	margin: 28px 0 0 0;
+	background: #0F4173;
+	font-size: 1.4em;
+	font-family: 'Oxygen', sans-serif;
+	border-top: solid 1px #ffffff;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*Horizontal Center*/
+
+#nav ul {                                
+	list-style: none;
+	margin: 0 auto;
+	width: 1062px;
+	text-align: center;
+}
+
+/*Vertical Center*/
+
+#nav ul li {                               
+	display: inline;
+	text-align: center;
+	padding: 0 1.75em 0 1.75em;
+}
+
+/*Styles for Navigation bar End*/
+
+/*Holds everything in the center*/
+
+#outer {
+	position: relative;
+	width: 1180px;
+	padding-top: 30px;
+	margin: 0 auto 0 auto;
+}
+
+/*Holds everything in the center End*/
